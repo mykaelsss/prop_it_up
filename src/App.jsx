@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import MyNewComponent from './components/someClassComponent';
+import PersonCard from './components/someClassComponent';
 function App() {
   // const peopleArr =[
   //   {"firstName":"Jane", "lastName":"Doe", "age":45, "hairColor":"Black"},
@@ -11,10 +11,10 @@ function App() {
   return (
     <div className="App">
       <div>
-        <MyNewComponent firstname = {"Doe"} lastname = {"Jane"} age = {45} haircolor = {"Black"}/>
-        <MyNewComponent firstname = {"Smith"} lastname = {"John"} age = {88} haircolor = {"Brown"}/>
-        <MyNewComponent firstname = {"Fillmore"} lastname = {"Millard"} age = {50} haircolor = {"Brown"}/>
-        <MyNewComponent firstname = {"Smith"} lastname = {"Maria"} age = {62} haircolor = {"Brown"}/>
+        <PersonCard firstname = { "Doe" } lastname = { "Jane" } age = { 45 } haircolor = { "Black" }/>
+        <PersonCard firstname = { "Smith" } lastname = { "John" } age = { 88 } haircolor = { "Brown" }/>
+        <PersonCard firstname = { "Fillmore" } lastname = { "Millard" } age = { 50 } haircolor = { "Brown" }/>
+        <PersonCard firstname = { "Smith" } lastname = { "Maria" } age = { 62 } haircolor = { "Brown" }/>
       </div>
     </div>
   )
